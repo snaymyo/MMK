@@ -15,7 +15,7 @@ return
 end
 if AskPassword[1] == Password then -- Check If Password is same as wanted .
 gg.toast("✅ Password မှန်ကန်ပါသည်❕")
-g.alert("Wait For A Seconds")
+gg.alert("Wait For A Seconds")
 gg.sleep("1000")
 
 if gg.isPackageInstalled("com.gxlkj.tl") then
@@ -106,14 +106,15 @@ if gg.isPackageInstalled("com.gxlkj.tl") then
     return
   end
   _G["gg"]["removeListItems"](save)
-if gg.isPackageInstalled("com.snm.vipgg") then
-else
-  gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 SN GG 👉  SN GG APK👈  )")
-  os.exit()
+gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 MMKVIPGG  👉  MMKVIPGG APK👈  )")
+gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  gg ဒေါင်းရန်အတွက် chrome appမှာ \n bit.ly/mmkgamingv3 \n ရိုက်ဒေါင်းလိုက်ပါ ​မဒေါင်းတက်ပါက F​acebook Account - https://m.me/mmkygn143ကိုဆက်သွယ်ပေးပါ", "🇴 🇰") 
+   os.exit()
 end
 if gg.PACKAGE == "com.snm.vipgg" then
 else
-  gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 SN GG 👉 SN GG APK👈  )")
+gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 MMKVIPGG👉 MMKVIPGG APK👈  )")
+gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  gg ဒေါင်းရန်အတွက် chrome appမှာ \n bit.ly/MMKVIPGG \n ရိုက်ဒေါင်းလိုက်ပါ ​မဒေါင်းတက်ပါက F​acebook Account - https://m.me/mmkygn143ကိုဆက်သွယ်ပေးပါ", "🇴 🇰") 
+
   os.exit()
 end
 
