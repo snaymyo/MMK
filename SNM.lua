@@ -106,15 +106,14 @@ if gg.isPackageInstalled("com.gxlkj.tl") then
     return
   end
   _G["gg"]["removeListItems"](save)
-gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 MMKVIPGG  👉  MMKVIPGG APK👈  )")
-gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  gg ဒေါင်းရန်အတွက် chrome appမှာ \n bit.ly/mmkgamingv3 \n ရိုက်ဒေါင်းလိုက်ပါ ​မဒေါင်းတက်ပါက F​acebook Account - https://m.me/mmkygn143ကိုဆက်သွယ်ပေးပါ", "🇴 🇰") 
-   os.exit()
+if gg.isPackageInstalled("com.snm.vipgg") then
+else
+  gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 MMKVIPGG 👉  MMKVIPGG APK👈  )")
+  os.exit()
 end
 if gg.PACKAGE == "com.snm.vipgg" then
 else
-gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 MMKVIPGG👉 MMKVIPGG APK👈  )")
-gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  gg ဒေါင်းရန်အတွက် chrome appမှာ \n bit.ly/MMKVIPGG \n ရိုက်ဒေါင်းလိုက်ပါ ​မဒေါင်းတက်ပါက F​acebook Account - https://m.me/mmkygn143ကိုဆက်သွယ်ပေးပါ", "🇴 🇰") 
-
+  gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 MMKVIPGG 👉 MMKVIPGG APK👈  )")
   os.exit()
 end
 
