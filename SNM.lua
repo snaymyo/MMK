@@ -1,22 +1,5 @@
 gg.setVisible(false)
-gg.toast("🆆🅴🅻🅲🅾🅼🅴 🆃🅾 🅼🅼🅺 🅶🅰🅼🅸🅽🅶")
-gg.sleep(2000)
-gg.alert("Password Is SNM")
-local Password = "SNM","YTT"
-local AskPassword = gg.prompt({ 
- "🔒 Password ရိုက်ထည့်ပါ "
-},{""},{"text"})
-if not AskPassword then
-os.exit() 
-end 
-if AskPassword[1] == "" then
-gg.alert("ᴘᴀssᴡᴏʀᴅ ᴄᴀɴ ɴᴏᴛ ʙᴇ ᴇᴍᴘᴛʏ  ❕") -- Once Password is empty or "" .
-return
-end
-if AskPassword[1] == Password then -- Check If Password is same as wanted .
-gg.toast("✅ Password မှန်ကန်ပါသည်❕")
-gg.alert("Wait For A Seconds")
-gg.sleep("1000")
+gg.toast("🆆🅴🅻🅲🅾🅼🅴 🆃🅾 🆂🅽🅼 🅶🅰🅼🅸🅽🅶")
 
 if gg.isPackageInstalled("com.gxlkj.tl") then
     gg.alert("Uninstall Your Decryption GG APK", "🇴 🇰") 
@@ -108,28 +91,28 @@ if gg.isPackageInstalled("com.gxlkj.tl") then
   _G["gg"]["removeListItems"](save)
 if gg.isPackageInstalled("com.snm.vipgg") then
 else
-  gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 MMKVIPGG 👉  MMKVIPGG APK👈  )")
+  gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 SNMVIPGG 👉  SNMVIPGG APK👈  )")
   os.exit()
 end
 if gg.PACKAGE == "com.snm.vipgg" then
 else
-  gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 MMKVIPGG 👉 MMKVIPGG APK👈  )")
+  gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 SNMVIPGG 👉 SNMVIPGG APK👈  )")
   os.exit()
 end
 
 gg.setVisible(false)
-gg.alert(_ENV["os"]["date"]("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n 📆 ᴛᴏᴅᴀʏ - %x 📅 \n ⏰ ɴᴏᴡ ᴛɪᴍᴇ - %H:%M %p  ⏰  \n 11လပိုင်း11ရက်နေ့တွင်းသက်တမ််းကုန်ဆုံးပါမည်"),  "🅽🅴🆇🆃") 
+gg.alert(_ENV["os"]["date"]("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n 📆 ᴛᴏᴅᴀʏ - %x 📅 \n ⏰ ɴᴏᴡ ᴛɪᴍᴇ - %H:%M %p  ⏰  \n 11လပိုင်း30ရက်နေ့တွင်းသက်တမ််းကုန်ဆုံးပါမည်"),  "🅽🅴🆇🆃") 
 
 	
 
-Date = "2020112013:31"
+Date = "2020113013:31"
 date = os.date("%Y%m%d%X")
 if date > Date then
-gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  Facebook Account - https://m.me/mmkygn143", "🇴 🇰") 
+gg.alert("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  TELEGRAM - @DoctorMaster199", "🇴 🇰") 
 return
 end
 gg.setVisible(false)
-gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n ADMIN - MMK  \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143   ",  "🅽🅴🆇🆃")
+gg.alert("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n ADMIN - SNM  \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n 💻TELEGRAM - @DoctorMaster199   ",  "🅽🅴🆇🆃")
 gg.toast("■□□□□□□□□□10%")
 gg.sleep("150")
 gg.toast("■■□□□□□□□□20%")
@@ -150,7 +133,7 @@ gg.toast("■■■■■■■■■□90%")
 gg.sleep("150")
 gg.toast("■■■■■■■■■■100%")
 gg.sleep("100")
-gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁") 
+gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁") 
  gg.clearResults()
 
 function HOME()
@@ -164,7 +147,7 @@ function HOME()
 " 🆑🅸🅽🆃🅰🅽🅰🆑",
 "🆁🅴🅿🅾🆁🆃 🅲🅻🅴🅰🆁",
 "⛔ EXIT SCRIPT ⛔ ",
-    }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
+    }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n " .. Time)
   if SMN == nil then
   else
     if SMN == 1 then
@@ -204,7 +187,7 @@ function I()
 "🔫 ʜEASʜOT 100% 〘ɢAME〙 ",
 "📽FLY SIT  📽 ",
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+}, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
 if SNMO == nil then
   else
     if SNMO [1] == true then
@@ -237,10 +220,21 @@ end
 
 function rrp()
 gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109634~67109877", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109377;67109633;130000~139999", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("130000~139999", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(550292, nil, nil, nil, nil, nil, nil, nil, nil)
+revert = gg.getResults(550292, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(550292, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "16384"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.clearList()
 gg.clearResults()
 gg.toast("BLOCK REPORT")
 
@@ -265,9 +259,8 @@ SNMQ = gg.multiChoice({
 "🏡 COʟOʀ YEʟʟOW Aʟʟ SD 1  🏡 ",
 "🏡 COʟOʀ 675 RED 🏡 ",
 "📽ɪPAD VɪEW  📽 ",
-
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
+}, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n " .. Time)
 if SNMQ == nil then
   else
 if SNMQ[1] == true then
@@ -310,9 +303,10 @@ SNMN = gg.multiChoice({
 "✨🎩✨ MAɢɪC ʙUʟʟET 〘ɢAME〙",
 " 🔘 AɪM ʙOT 🔘〘ɢAME〙",
 "🚙 UAᴢ CAʀ FʟY〘ɢAME〙",
-" 🚗 DACɪA CAʀ FʟY 🚗〘ɢAME〙",
+" ☢ Small Crosshair ☢ ",
+" 🚴‍♀️ Micro Speed 🚴‍♀️ ",
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
+}, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n " .. Time)
  if SNMN == nil then
   else
  if SNMN[1] == true then
@@ -328,6 +322,9 @@ SNMN = gg.multiChoice({
       Ca()
     end
     if SNMN[5] == true then
+      MICR()
+    end
+   if SNMN[6] == true then
       HOME()
     end
   end
@@ -339,7 +336,7 @@ SNMNB = gg.choice({
 "✨🎩✨ WALL ON〘ɢAME〙",
 "✨🎩✨ WALL OFF〘ɢAME〙",
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
+}, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n " .. Time)
  if SNMNB == nil then
   else
  if SNMNB[1] == true then
@@ -1505,6 +1502,7 @@ gg.addListItems(t)
 t = nil
 gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
 gg.setVisible(false)
+gg.toast("■■■■■■■□□□80%")
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("16610;8388646;8388805", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1512,6 +1510,7 @@ gg.getResults(5000)
 gg.editAll("30", gg.TYPE_DWORD)
 gg.clearResults()
 gg.setVisible(false)
+gg.toast("■■■■■■■□□□90%")
 gg.clearResults()
 os.remove('/storage/emulated/0/Android/data/com.tencent.ig/cache')
 os.remove('/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini')
@@ -1812,7 +1811,7 @@ end
 
 
 
-function C675()
+function C6755()
    gg.clearResults()
     gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
     gg.searchNumber('0D;8,200D;12D:37', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1823,7 +1822,29 @@ function C675()
 gg.alert("COLOR RED 675 ✔ ", "🇴 🇰") 
 
 end
-
+function C675()
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+gg.searchNumber('147,457', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.sleep(140)
+gg.refineNumber('147,457', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.sleep(140)
+gg.refineAddress('858', -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('147,457', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll('7', gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+gg.searchNumber('147,457', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.sleep(140)
+gg.refineNumber('147,457', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.sleep(140)
+gg.refineAddress('858', -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber('147,457', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll('7', gg.TYPE_DWORD)
+gg.clearResults()
+end
 
 
 
@@ -1832,16 +1853,11 @@ function CYASDVO()
 gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
 gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.editAll("6", gg.TYPE_DWORD)
+gg.getResults(39)
+gg.editAll("6;6;9", gg.TYPE_DWORD)
 gg.clearResults()
 gg.alert("COLOR YELLOW ALL SD V1 ✔", "🇴 🇰") 
-
 end
-
-
-
 
 
 function CYASDVT()
@@ -1908,23 +1924,252 @@ end
 
 function MB()
 gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("69.5;35;33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(6)
-  gg.editAll("160;140;230", gg.TYPE_FLOAT)
-  gg.clearResults()
-gg.toast("Magic Bullet ✔") 
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.4826311e-10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(93748282)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("❯ 🄸🄲🄴🄶🄰🄼🄸🄽🄶 ❮")
 gg.clearResults()
-  gg.setRanges(32)
-  gg.searchNumber("9.20161819458;23;25;30.5", 16, false, 536870912, 0, -1)
-  gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("200", 16)
-  gg.clearResults()
-  gg.toast("Full Demage ✓")
 end
 
-function AHSS()
+function MBa()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("15.0F;28.0F;16.0F;26.0F;8.0F;18.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("95", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;16.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("240", gg.TYPE_FLOAT)
+end
+
+function MBx()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("360;0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,324,366,404", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,324,366,404", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for i, i in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil))) do
+    if i.flags == gg.TYPE_DWORD then
+      i.value = "100"
+      i.freeze = true
+    end
+  end
+  gg.addListItems((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)))
+  gg.editAll("100", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("180", gg.TYPE_FLOAT)
+  gg.clearResults()
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for i, i in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil))) do
+    if i.flags == gg.TYPE_FLOAT then
+      i.value = "200"
+      i.freeze = true
+    end
+  end
+  gg.addListItems((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)))
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("180", gg.TYPE_FLOAT)
+  gg.clearResults()
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for i, i in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil))) do
+    if i.flags == gg.TYPE_FLOAT then
+      i.value = "200"
+      i.freeze = true
+    end
+  end
+  gg.addListItems((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)))
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("260", gg.TYPE_FLOAT)
+  gg.searchNumber("30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("260", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0.07", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-160", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-260", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("450", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0.07", gg.TYPE_FLOAT)
+ gg.clearResults()
+  gg.searchNumber("-86.45767974854 ;16;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("16;26", gg.TYPE_FLOAT)
+  gg.getResults(100)
+  ggeditAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("201103237557570765", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5)
+  gg.editAll("201103237638520832", gg.TYPE_QWORD)
+  gg.clearResults()
+  end
+  
+  
+  
+ function MBa()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("360;0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,324,366,404",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("1,324,366,404",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for i, v in ipairs(t) do
+   if v.flags == gg.TYPE_DWORD then
+    v.value = "100"
+    v.freeze = true
+   end
+  end
+  gg.addListItems(t)
+  t = nil
+  gg.editAll("100",gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(3)
+  gg.editAll("180",gg.TYPE_FLOAT)
+  gg.clearResults()
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for i, v in ipairs(t) do
+   if v.flags == gg.TYPE_FLOAT then
+    v.value = "200"
+    v.freeze = true
+   end
+  end
+  gg.addListItems(t)
+  t = nil
+  gg.editAll("9999",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.refineNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(3)
+  gg.editAll("180",gg.TYPE_FLOAT)
+  gg.clearResults()
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for i, v in ipairs(t) do
+   if v.flags == gg.TYPE_FLOAT then
+    v.value = "200"
+    v.freeze = true
+   end
+  end
+  gg.addListItems(t)
+  t = nil
+  gg.editAll("9999",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("26",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(2)
+  gg.editAll("-460",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(2)
+  gg.editAll("-560",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.20161819458;23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(1)
+  gg.editAll("260",gg.TYPE_FLOAT)
+  gg.searchNumber("30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(1)
+  gg.editAll("260",gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.searchNumber("2048D;1F",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.searchNumber("1",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+  gg.getResults(100)
+  gg.editAll("0.07",gg.TYPE_FLOAT)
+  gg.clearResults()
+ gg.alert("Magic Bullet ✔", "🇴 🇰") 
+  end
+
+function AHSSV()
 gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("-88.66608428955;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1943,10 +2188,10 @@ gg.clearResults()
   gg.getResults(10)
   gg.editAll("240", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast(" Auto Headshot 200% ✓")
+  gg.toast(" Auto Headshot 100% ✓")
   end
 
-function AHSSs()
+function AHSSb()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber('-88.66608428955;26', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1967,36 +2212,81 @@ gg.editAll('240', gg.TYPE_FLOAT)
 gg.clearResults()
 end
 
+
+function AHSS()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("25;23;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("23;25;30.5",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+gg.getResults(3)
+gg.editAll("180",gg.TYPE_FLOAT)
+gg.clearResults()
+revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+ if v.flags == gg.TYPE_FLOAT then
+  v.value = "200"
+  v.freeze = true
+ end
+end
+gg.addListItems(t)
+t = nil
+gg.editAll("9999",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.alert(" AUTO HEATSHOT  ", "🇴 🇰") 
+end
+
+
+
  
 
 function LR()
 
 gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("1,348,759,109;1953067887;1,634,692,166;1,920,287,604::28", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.searchNumber("1634692166", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("🍓Less Recoil Activated")
-
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-309056968;-298841599;-309061065",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("-298841599",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+revert = gg.getResults(5, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(5, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+ if v.flags == gg.TYPE_DWORD then
+  v.value = "5.0"
+  v.freeze = true
+ end
+end
+gg.addListItems(t)
+t = nil
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.searchNumber("-309056968;-298841599;-309061065",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+gg.searchNumber("-298841599",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+revert = gg.getResults(5, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(5, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+ if v.flags == gg.TYPE_DWORD then
+  v.value = "90"
+  v.freeze = true
+ end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.alert (" Less Recoil ✔ ", "🇴 🇰") 
 end
 
  
 
 function AB()
-
 gg.clearResults()
-  gg.setRanges(16384)
-  gg.setVisible(false)
-  gg.searchNumber("-290,174,237", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-290,174,237", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("E00", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("0", gg.TYPE_DWORD)
-  gg.clearResults()
-gg.toast(" 🧿 ᴀɪᴍʙᴏᴛ360  ")
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+gg.toast(" 🧿 Special Aimbot  ")
 end
  
 
@@ -2026,10 +2316,15 @@ end
 
 
 function Ca()
-  TL = gg.getRangesList("libUE4.so")[1].start
-  TQ = 27281792
-  setvalue(TL + TQ, 16, 0)
-  gg.toast(" Small CrossHair✔")
+ gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber("-1.2382424e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-7.1608877e24::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("90", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast(" Small CrossHair✔")
 end
 
 function HJ()
@@ -2163,7 +2458,7 @@ WALL = gg.choice({
 "🏡 ᴏᴛʜᴇʀ Phone",
 "🏡 COLOR HACK",
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+}, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if WALL == nil then
   else
     if WALL == 1 then
@@ -2224,7 +2519,7 @@ function SNAPDRAGON()
     "🏡 ᴡᴀʟʟʜᴀᴄᴋ sᴅ 845",
     "🏡 ᴡᴀʟʟʜᴀᴄᴋ sᴅ 855",
   "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
+}, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n " .. Time)
   if WALL11 == nil then
   else
     if WALL11[1] == true then
@@ -2374,7 +2669,7 @@ function wh1()
   gg.getResults(100)
   gg.editAll("130", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh2()
@@ -2413,7 +2708,7 @@ function wh2()
   gg.searchNumber("-5.5695588e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(6)
   gg.editAll("6444", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh3()
@@ -2424,7 +2719,7 @@ function wh3()
   gg.getResults(1)
   gg.editAll("99999", 16)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh4()
@@ -2441,7 +2736,7 @@ function wh4()
   gg.getResults(100)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh5()
@@ -2464,7 +2759,7 @@ function wh5()
   gg.getResults(100)
   gg.editAll("8204", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh6()
@@ -2486,7 +2781,7 @@ function wh6()
   gg.getResults(100)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh7()
@@ -2502,7 +2797,7 @@ function wh7()
   gg.getResults(100)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh8()
@@ -2512,7 +2807,7 @@ function wh8()
   gg.getResults(360)
   gg.editAll("150", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh9()
@@ -2529,7 +2824,7 @@ function wh9()
   gg.getResults(35)
   gg.editAll("138", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh10()
@@ -2546,7 +2841,7 @@ function wh10()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh11()
@@ -2587,7 +2882,7 @@ function wh11()
   gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(30)
   gg.editAll("150", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh12()
@@ -2604,7 +2899,7 @@ function wh12()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh13()
@@ -2621,7 +2916,7 @@ function wh13()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh14()
@@ -2637,7 +2932,7 @@ function wh14()
   gg.getResults(100)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh15()
@@ -2654,7 +2949,7 @@ function wh15()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh16()
@@ -2671,7 +2966,7 @@ function wh16()
   gg.getResults(10)
   gg.editAll("130", 16)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh17()
@@ -2700,7 +2995,7 @@ function wh17()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh18()
@@ -2718,7 +3013,7 @@ function wh18()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh19()
@@ -2736,7 +3031,7 @@ function wh19()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh20()
@@ -2751,7 +3046,7 @@ function wh20()
   gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("120", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh21()
@@ -2767,7 +3062,7 @@ function wh21()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh22()
@@ -2783,7 +3078,7 @@ function wh22()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh23()
@@ -2799,7 +3094,7 @@ function wh23()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh24()
@@ -2815,7 +3110,7 @@ function wh24()
   gg.getResults(10)
   gg.editAll("120", 16)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 --table 34
@@ -2835,7 +3130,7 @@ function wh25()
   gg.getResults(999)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  ggg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  ggg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh26()
@@ -2851,7 +3146,7 @@ function wh26()
   gg.getResults(999)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh27()
@@ -2874,7 +3169,7 @@ function wh27()
   gg.getResults(2)
   gg.editAll("7", 4)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh28()
@@ -2889,7 +3184,7 @@ function wh28()
   gg.getResults(10)
   gg.editAll("120", 16)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh29()
@@ -2905,7 +3200,7 @@ function wh29()
   gg.getResults(999)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh30()
@@ -2921,7 +3216,7 @@ function wh30()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh31()
@@ -2936,7 +3231,7 @@ function wh31()
   gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(3000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("120", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh32()
@@ -2953,7 +3248,7 @@ function wh32()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh33()
@@ -2970,7 +3265,7 @@ function wh33()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh34()
@@ -2986,7 +3281,7 @@ function wh34()
   gg.getResults(10)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh35()
@@ -3003,7 +3298,7 @@ function wh35()
   gg.getResults(10)
   gg.editAll("130", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh36()
@@ -3019,7 +3314,7 @@ function wh36()
   gg.getResults(10)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh37()
@@ -3036,7 +3331,7 @@ function wh37()
   gg.getResults(10)
   gg.editAll("130", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh38()
@@ -3057,7 +3352,7 @@ function wh38()
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(5)
   gg.editAll("9999", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh39()
@@ -3073,7 +3368,7 @@ function wh39()
   gg.getResults(30)
   gg.editAll("120", 16)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wh40()
@@ -3089,7 +3384,7 @@ function wh40()
   gg.getResults(100)
   gg.editAll("120", 16)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function CHIPSET()
@@ -3131,7 +3426,7 @@ function CHIPSET()
     "🏡 ᴡᴀʟʟʜᴀᴄᴋ ᴏᴘᴘᴏ",
     "🏡 ᴡᴀʟʟʜᴀᴄᴋ ᴠɪᴠᴏ",
   "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n " .. Time)
   if WALL22 == nil then
   else
     if WALL22[1] == true then
@@ -3263,7 +3558,7 @@ function wc1()
   gg.getResults(100)
   gg.editAll("130", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc2()
@@ -3286,7 +3581,7 @@ function wc2()
   gg.getResults(2)
   gg.editAll("99999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc3()
@@ -3309,7 +3604,7 @@ function wc3()
   gg.getResults(10)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc4()
@@ -3320,7 +3615,7 @@ function wc4()
   t = gg.getResults(10)
   gg.editAll("50", gg.TYPE_FLOAT)
   print("addListItems: ", gg.addListItems(t))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc5()
@@ -3331,7 +3626,7 @@ function wc5()
   t = gg.getResults(10)
   gg.editAll("50", gg.TYPE_FLOAT)
   print("addListItems: ", gg.addListItems(t))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc6()
@@ -3367,7 +3662,7 @@ function wc6()
       _A = gg.getResults(_Count)
       last_Count = _Count + 1
       w = 1
-      _T = "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁"
+      _T = "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁"
       WHFIX7870()
     end
   end
@@ -3381,7 +3676,7 @@ function WHFIX7870()
     _CL = {}
     for i = 1, _Count do
     end
-    _C_ = gg.choice(_CL, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+    _C_ = gg.choice(_CL, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
     for i = 1, _Count do
       if _C_ == i then
         for i, i in ipairs(_A) do
@@ -3406,7 +3701,7 @@ function wc7()
     end
   end
   gg.addListItems((gg.getResults(20, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc8()
@@ -3426,7 +3721,7 @@ function wc8()
   gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("36", gg.TYPE_QWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc9()
@@ -3440,7 +3735,7 @@ function wc9()
     end
   end
   gg.addListItems((gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc10()
@@ -3459,7 +3754,7 @@ function wc10()
     gg.clearResults()
     gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
     if gg.getResultCount() == 0 then
-      gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 👑 Wallhack Exynos 8895 🤣")
+      gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 👑 Wallhack Exynos 8895 🤣")
     else
       gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
       _Count = gg.getResultCount()
@@ -3480,7 +3775,7 @@ function WHFIX8895()
     _CL = {}
     for i = 1, _Count do
     end
-    _C_ = gg.choice(_CL, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+    _C_ = gg.choice(_CL, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
     for i = 1, _Count do
       if _C_ == i then
         for i, i in ipairs(_A) do
@@ -3507,7 +3802,7 @@ function wc11()
     y = z[i].address
     addListItems({})
   end
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc12()
@@ -3540,7 +3835,7 @@ function WHFIX9810()
     _CL = {}
     for i = 1, _Count do
     end
-    C = gg.choice(_CL, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+    C = gg.choice(_CL, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
     for i = 1, _Count do
       if C == i then
         for i, i in ipairs(_A) do
@@ -3553,7 +3848,7 @@ function WHFIX9810()
       end
     end
   end
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc13()
@@ -3594,7 +3889,7 @@ function wc13()
   gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(50)
   gg.editAll("120", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc14()
@@ -3607,7 +3902,7 @@ function wc14()
     end
   end
   gg.addListItems((gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc15()
@@ -3621,7 +3916,7 @@ function wc15()
     end
   end
   gg.addListItems((gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
   gg.searchNumber("56;64;80;16;80:93", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.refineNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -3630,7 +3925,7 @@ function wc15()
     end
   end
   gg.addListItems((gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc16()
@@ -3644,7 +3939,7 @@ function wc16()
     end
   end
   gg.addListItems((gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function wc17()
@@ -3653,7 +3948,7 @@ function wc17()
   gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.addListItems()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc18()
@@ -3666,7 +3961,7 @@ function wc18()
     end
   end
   gg.addListItems((gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc19()
@@ -3679,7 +3974,7 @@ function wc19()
   var = gg.getResults(22)
   gg.addListItems(var)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc20()
@@ -3704,7 +3999,7 @@ function wc20()
   gg.editAll("90", gg.TYPE_DWORD)
   gg.addListItems((gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)))
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function wc21()
@@ -3737,7 +4032,7 @@ function WHFIX980()
     _CL = {}
     for i = 1, _Count do
     end
-    _C_ = gg.choice(_CL, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+    _C_ = gg.choice(_CL, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
     for i = 1, _Count do
       if _C_ == i then
         for i, i in ipairs(_A) do
@@ -3751,7 +4046,7 @@ function WHFIX980()
     end
   end
   gg.setVisible(true)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc22()
@@ -3762,7 +4057,7 @@ function wc22()
   revert = gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("56;54", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc23()
@@ -3776,7 +4071,7 @@ function wc23()
       gg.clearResults()
     end
   end
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc24()
@@ -3816,7 +4111,7 @@ function wc24()
   end
   gg.addListItems((gg.getListItems()))
   gg.processResume()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc25()
@@ -3829,7 +4124,7 @@ function wc25()
   for i, i in ipairs((gg.getResults(10))) do
   end
   gg.addListItems((gg.getResults(10)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc26()
@@ -3842,7 +4137,7 @@ function wc26()
   var[1].value = 140
   var[1].freeze = true
   gg.addListItems(var)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc27()
@@ -3855,7 +4150,7 @@ function wc27()
   var = gg.getResults(100)
   gg.addListItems(var)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc28()
@@ -3875,7 +4170,7 @@ function wc28()
       gg.sleep(70)
     end
   end
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc29()
@@ -3887,7 +4182,7 @@ function wc29()
   var = gg.getResults(100)
   gg.addListItems(var)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc30()
@@ -3900,7 +4195,7 @@ function wc30()
   var = gg.getResults(100)
   gg.addListItems(var)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function wc31()
@@ -3930,7 +4225,7 @@ function wc31()
   var[9].freeze = true
   gg.addListItems(var)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc32()
@@ -3948,7 +4243,7 @@ function wc32()
   gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("47", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc33()
@@ -3960,7 +4255,7 @@ function wc33()
   var = gg.getResults(100)
   gg.addListItems(var)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc34()
@@ -3976,7 +4271,7 @@ function wc34()
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc35()
@@ -4016,7 +4311,7 @@ function wc35()
   gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function wc36()
@@ -4062,7 +4357,7 @@ function wc36()
   gg.getResults(20)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
     
    
@@ -4097,7 +4392,7 @@ function COLORHACK()
     "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 845",
     "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 855",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CHACKKK1 == nil then
   else
     if CHACKKK1 == 1 then
@@ -4198,7 +4493,7 @@ function cr1()
     "❏ Color Pink",
     "❏ Color Rainbow",
     "• • •『 BACK 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRALLDEVICE1 == nil then
   else
     if CLRALLDEVICE1[1] == true then
@@ -4237,7 +4532,7 @@ function crldevice1()
   gg.getResults(10)
   gg.editAll("7", 4)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crldevice2()
@@ -4248,7 +4543,7 @@ function crldevice2()
   gg.getResults(10)
   gg.editAll("6", 4)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldevice3()
@@ -4268,7 +4563,7 @@ function crldevice3()
   gg.getResults(1401)
   gg.editAll("7169730606773831033", 32)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldevice4()
@@ -4295,7 +4590,7 @@ function crldevice4()
   gg.getResults(1401)
   gg.editAll("7169730606773831033", 32)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldevice5()
@@ -4306,7 +4601,7 @@ function crldevice5()
   gg.getResults(2)
   gg.editAll("4", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldevice6()
@@ -4318,7 +4613,7 @@ function crldevice6()
   gg.getResults(100)
   gg.editAll("4", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldevice7()
@@ -4329,7 +4624,7 @@ function crldevice7()
   gg.getResults(10)
   gg.editAll("1.0863202718415e-25", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr2()
@@ -4344,7 +4639,7 @@ function cr2()
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 7870 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 8890 ʀᴇᴅ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CHACK22 == nil then
   else
     if CHACK22[1] == true then
@@ -4389,7 +4684,7 @@ function cree1()
   gg.getResults(1)
   gg.editAll("-999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree2()
@@ -4399,7 +4694,7 @@ function cree2()
   gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("38", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree3()
@@ -4417,7 +4712,7 @@ function cree3()
   gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.addListItems({})
   gg.processResume()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree4()
@@ -4430,7 +4725,7 @@ function cree4()
     end
   end
   gg.addListItems((gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree5()
@@ -4441,7 +4736,7 @@ function cree5()
   gg.getResults(1)
   gg.editAll("999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree6()
@@ -4460,7 +4755,7 @@ function cree6()
   gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.addListItems({})
   gg.processResume()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree7()
@@ -4470,7 +4765,7 @@ function cree7()
   gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(5)
   gg.editAll("22", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree8()
@@ -4481,7 +4776,7 @@ function cree8()
   gg.getResults(25)
   gg.editAll("89", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cree9()
@@ -4492,7 +4787,7 @@ function cree9()
   gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(786)
   gg.editAll("40;102", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr3()
@@ -4504,7 +4799,7 @@ function cr3()
     "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLHDRAEVICE1 == nil then
   else
     if CLHDRAEVICE1[1] == true then
@@ -4540,7 +4835,7 @@ function crldhdrce1()
   gg.getResults(999)
   gg.editAll("8198", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldhdrce2()
@@ -4551,7 +4846,7 @@ function crldhdrce2()
   gg.getResults(30)
   gg.editAll("70", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldhdrce3()
@@ -4562,7 +4857,7 @@ function crldhdrce3()
   gg.getResults(30)
   gg.editAll("8230", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldhdrce4()
@@ -4573,7 +4868,7 @@ function crldhdrce4()
   gg.getResults(30)
   gg.editAll("74", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldhdrce5()
@@ -4585,7 +4880,7 @@ function crldhdrce5()
   gg.editAll("7", gg.TYPE_DWORD)
   gg.editAll("3", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldhdrce6()
@@ -4596,7 +4891,7 @@ function crldhdrce6()
   gg.getResults(30)
   gg.editAll("65", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr4()
@@ -4611,7 +4906,7 @@ function cr4()
     "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 710 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 710 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CHACK33 == nil then
   else
     if CHACK33[1] == true then
@@ -4655,7 +4950,7 @@ function creee1()
   gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("39", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee2()
@@ -4667,7 +4962,7 @@ function creee2()
   gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("32", gg.TYPE_DWORD)
   gg.processResume()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee3()
@@ -4677,7 +4972,7 @@ function creee3()
   gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("25", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee4()
@@ -4687,7 +4982,7 @@ function creee4()
   gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("42", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee5()
@@ -4697,7 +4992,7 @@ function creee5()
   gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("36", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee6()
@@ -4708,7 +5003,7 @@ function creee6()
   gg.editAll("20", gg.TYPE_DWORD)
   gg.processResume()
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee7()
@@ -4719,7 +5014,7 @@ function creee7()
   revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("22", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee9()
@@ -4730,7 +5025,7 @@ function creee9()
   gg.getResults(999)
   gg.editAll("8199", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creee10()
@@ -4739,7 +5034,7 @@ function creee10()
   gg.searchNumber("3152519739159347240", gg.TYPE_QWORD)
   gg.addListItems((gg.getResults(20)))
   gg.editAll("150", gg.TYPE_QWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr5()
@@ -4757,7 +5052,7 @@ function cr5()
     "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ60 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ22 ʙʟᴜᴇ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CHACK44 == nil then
   else
     if CHACK44[1] == true then
@@ -4810,7 +5105,7 @@ function creeee1()
   gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("52", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee2()
@@ -4820,7 +5115,7 @@ function creeee2()
   gg.refineNumber("48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("33", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee3()
@@ -4831,7 +5126,7 @@ function creeee3()
   gg.getResults(10)
   gg.editAll("38", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee4()
@@ -4841,7 +5136,7 @@ function creeee4()
   gg.refineNumber("59", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("44", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee5()
@@ -4851,7 +5146,7 @@ function creeee5()
   gg.refineNumber("48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("39", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee6()
@@ -4861,7 +5156,7 @@ function creeee6()
   gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(1)
   gg.editAll("999", gg.TYPE_FLOAT)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee7()
@@ -4871,7 +5166,7 @@ function creeee7()
   gg.refineNumber("49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("44", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee8()
@@ -4881,7 +5176,7 @@ function creeee8()
   gg.searchNumber("88", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("-2", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee9()
@@ -4893,7 +5188,7 @@ function creeee9()
   gg.getResults(100)
   gg.editAll("28", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee10()
@@ -4903,7 +5198,7 @@ function creeee10()
   gg.refineNumber("3162688022693019688", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("38", gg.TYPE_QWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 Color Mediatek P60 Red 🤣")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 Color Mediatek P60 Red 🤣")
 end
 
 function creeee11()
@@ -4913,7 +5208,7 @@ function creeee11()
   gg.refineNumber("3162688022693019688", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("36", gg.TYPE_QWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function creeee12()
@@ -4923,7 +5218,7 @@ function creeee12()
   gg.refineNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("33", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
   gg.clearResults()
   gg.setVisible(false)
 end
@@ -4934,7 +5229,7 @@ function cr6()
     "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
-   }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+   }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRVECHILEICE1 == nil then
   else
     if CLRVECHILEICE1[1] == true then
@@ -4958,7 +5253,7 @@ function crldvechioae1()
   gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("11", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crldvechioae2()
@@ -4966,7 +5261,7 @@ function crldvechioae2()
   gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crldvechioae3()
@@ -4974,7 +5269,7 @@ function crldvechioae3()
   gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr7()
@@ -4982,7 +5277,7 @@ function cr7()
     "❏ ᴄᴏʟᴏʀ 400 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 400 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4001 == nil then
   else
     if CLRSNAP4001[1] == true then
@@ -5006,7 +5301,7 @@ function crl4001()
   gg.getResults(1)
   gg.editAll("8", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4002()
@@ -5021,7 +5316,7 @@ function crl4002()
   gg.getResults(10)
   gg.editAll("9999", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function cr8()
@@ -5031,7 +5326,7 @@ function cr8()
     "❏ ᴄᴏʟᴏʀ 410 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 410 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4101 == nil then
   else
     if CLRSNAP4101[1] == true then
@@ -5061,7 +5356,7 @@ function crl4101()
   gg.getResults(30)
   gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4102()
@@ -5072,7 +5367,7 @@ function crl4102()
   gg.getResults(1)
   gg.editAll("8", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4103()
@@ -5083,7 +5378,7 @@ function crl4103()
   gg.getResults(20)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4104()
@@ -5099,14 +5394,14 @@ function crl4104()
   gg.getResults(10)
   gg.editAll("9999", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function cr9()
   CLRSNAP4151 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 415 ɢʀᴇᴇɴ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4151 == nil then
   else
     if CLRSNAP4151[1] == true then
@@ -5136,7 +5431,7 @@ function crl4151()
   gg.getResults(5)
   gg.editAll("9999", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function cr10()
@@ -5147,7 +5442,7 @@ function cr10()
     "❏ ᴄᴏʟᴏʀ 425 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 425 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4251 == nil then
   else
     if CLRSNAP4251[1] == true then
@@ -5180,7 +5475,7 @@ function crl4251()
   gg.getResults(10)
   gg.editAll("9", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4252()
@@ -5195,7 +5490,7 @@ function crl4252()
   gg.searchNumber("196608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(5)
   gg.editAll("9999", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4253()
@@ -5209,7 +5504,7 @@ function crl4253()
   gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("1", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4254()
@@ -5219,7 +5514,7 @@ function crl4254()
   gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("8203", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4255()
@@ -5235,7 +5530,7 @@ function crl4255()
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("6666", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr11()
@@ -5243,7 +5538,7 @@ function cr11()
     "❏ ᴄᴏʟᴏʀ 430 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 430 ʀᴇᴅ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4301 == nil then
   else
     if CLRSNAP4301[1] == true then
@@ -5267,7 +5562,7 @@ function crl4301()
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("99", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4302()
@@ -5278,7 +5573,7 @@ function crl4302()
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("75", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr12()
@@ -5288,7 +5583,7 @@ function cr12()
     "❏ ᴄᴏʟᴏʀ 435 ʏᴇʟʟᴏᴡ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 435 ᴡʜɪᴛᴇ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4351 == nil then
   else
     if CLRSNAP4351[1] == true then
@@ -5318,7 +5613,7 @@ function crl4351()
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("99", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4352()
@@ -5328,7 +5623,7 @@ function crl4352()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(6)
   gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4353()
@@ -5338,7 +5633,7 @@ function crl4353()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4354()
@@ -5348,7 +5643,7 @@ function crl4354()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr13()
@@ -5357,7 +5652,7 @@ function cr13()
     "❏ ᴄᴏʟᴏʀ 450 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 450 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP4501 == nil then
   else
     if CLRSNAP4501[1] == true then
@@ -5384,7 +5679,7 @@ function crl4501()
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("99", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl4502()
@@ -5395,7 +5690,7 @@ function crl4502()
   revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("75", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl4503()
@@ -5405,7 +5700,7 @@ function crl4503()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr14()
@@ -5414,7 +5709,7 @@ function cr14()
     "❏ ᴄᴏʟᴏʀ 610 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ 610 ᴡʜɪᴛᴇ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6101 == nil then
   else
     if CLRSNAP6101[1] == true then
@@ -5440,7 +5735,7 @@ function crl6101()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
-  ggg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  ggg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6102()
@@ -5450,7 +5745,7 @@ function crl6102()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6103()
@@ -5460,7 +5755,7 @@ function crl6103()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("9", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr15()
@@ -5471,7 +5766,7 @@ function cr15()
     "❏ ᴄᴏʟᴏʀ 615 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 615 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6151 == nil then
   else
     if CLRSNAP6151[1] == true then
@@ -5505,7 +5800,7 @@ function crl6151()
   revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("R_R({5,159,46,192,77,230})", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6152()
@@ -5521,7 +5816,7 @@ function crl6152()
   gg.getResults(10)
   gg.editAll("196619", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6153()
@@ -5533,7 +5828,7 @@ function crl6153()
   revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("R_R({5,159,46,192,77,231})", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6154()
@@ -5545,7 +5840,7 @@ function crl6154()
   revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("R_R({5,159,46,192,78,222})", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6155()
@@ -5567,7 +5862,7 @@ function crl6155()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr16()
@@ -5577,7 +5872,7 @@ function cr16()
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 625 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 625 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6251 == nil then
   else
     if CLRSNAP6251[1] == true then
@@ -5607,7 +5902,7 @@ function crl6251()
   gg.getResults(100)
   gg.editAll("3", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6252()
@@ -5618,7 +5913,7 @@ function crl6252()
   gg.getResults(100)
   gg.editAll("78", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6253()
@@ -5629,7 +5924,7 @@ function crl6253()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6254()
@@ -5640,7 +5935,7 @@ function crl6254()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr17()
@@ -5650,7 +5945,7 @@ function cr17()
     "❏ ᴄᴏʟᴏʀ 636 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ 636 ᴡʜɪᴛᴇ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6361 == nil then
   else
     if CLRSNAP6361[1] == true then
@@ -5680,7 +5975,7 @@ function crl6361()
   revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("9999", gg.TYPE_DWORD)
   gg.clearResults()
-  ggg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  ggg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6362()
@@ -5696,7 +5991,7 @@ function crl6362()
   gg.refineNumber("B({56,50,48,48})", ggTYPE_DWORD, false, ggSIGN_EQUAL, 0, -1)
   revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("B({55})", ggTYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6363()
@@ -5708,7 +6003,7 @@ function crl6363()
   gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6364()
@@ -5719,14 +6014,14 @@ function crl6364()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr18()
   CLRSNAP6501 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 650 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6501 == nil then
   else
     if CLRSNAP6501[1] == true then
@@ -5746,14 +6041,14 @@ function crl6501()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr19()
   CLRSNAP6531 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 653 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6531 == nil then
   else
     if CLRSNAP6531[1] == true then
@@ -5773,7 +6068,7 @@ function crl6531()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr20()
@@ -5782,7 +6077,7 @@ function cr20()
     "❏ ᴄᴏʟᴏʀ 660 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 660 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6601 == nil then
   else
     if CLRSNAP6601[1] == true then
@@ -5809,7 +6104,7 @@ function crl6601()
   gg.getResults(100)
   gg.editAll("78", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6602()
@@ -5820,7 +6115,7 @@ function crl6602()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("8198", gg.TYPE_DWORD)
- gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+ gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6603()
@@ -5831,7 +6126,7 @@ function crl6603()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(20)
   gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr21()
@@ -5841,7 +6136,7 @@ function cr21()
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 665 ʀᴇᴅ ",
     "❏ ᴄᴏʟᴏʀ 665 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6651 == nil then
   else
     if CLRSNAP6651[1] == true then
@@ -5871,7 +6166,7 @@ function crl6651()
   gg.getResults(25)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6652()
@@ -5881,7 +6176,7 @@ function crl6652()
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6653()
@@ -5892,7 +6187,7 @@ function crl6653()
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6654()
@@ -5903,7 +6198,7 @@ function crl6654()
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr22()
@@ -5917,7 +6212,7 @@ gg.alert("Graphic HD များအား HD ထားပြီးမှသု�
     "❏ ᴄᴏʟᴏʀ 675 ʏᴇʟʟᴏᴡ ᴠ1 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
     "❏ ᴄᴏʟᴏʀ 675 ʏᴇʟʟᴏᴡ ᴠ2 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP6751 == nil then
   else
     if CLRSNAP6751[1] == true then
@@ -5960,7 +6255,7 @@ function crl6751()
   gg.getResults(1401)
   gg.editAll("1,988,957,532,585,984", gg.TYPE_QWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6752()
@@ -5971,7 +6266,7 @@ function crl6752()
   gg.getResults(999)
   gg.editAll("8198", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6753()
@@ -5981,7 +6276,7 @@ function crl6753()
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6754()
@@ -5992,7 +6287,7 @@ function crl6754()
   gg.getResults(1401)
   gg.editAll("7", gg.TYPE_QWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6755()
@@ -6002,7 +6297,7 @@ function crl6755()
   gg.getResults(330)
   gg.editAll("14", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6756()
@@ -6012,7 +6307,7 @@ function crl6756()
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  ggg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  ggg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl6757()
@@ -6023,7 +6318,7 @@ function crl6757()
   gg.getResults(100)
   gg.editAll("8198", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr23()
@@ -6034,7 +6329,7 @@ function cr23()
     "❏ ᴄᴏʟᴏʀ 710 ᴡʜɪᴛᴇ",
     "❏ ᴄᴏʟᴏʀ 710 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP7101 == nil then
   else
     if CLRSNAP7101[1] == true then
@@ -6067,7 +6362,7 @@ function crl7101()
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl7102()
@@ -6078,7 +6373,7 @@ function crl7102()
   gg.getResults(5)
   gg.editAll("8199", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl7103()
@@ -6089,7 +6384,7 @@ function crl7103()
   gg.getResults(10)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl7104()
@@ -6100,7 +6395,7 @@ function crl7104()
   gg.getResults(20)
   gg.editAll("4", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl7105()
@@ -6110,7 +6405,7 @@ function crl7105()
   gg.getResults(10)
   gg.editAll("6", 4)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr24()
@@ -6119,7 +6414,7 @@ function cr24()
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 712 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 712 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP7121 == nil then
   else
     if CLRSNAP7121[1] == true then
@@ -6144,7 +6439,7 @@ function crl7121()
   gg.getResults(999)
   gg.editAll("8199", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl7122()
@@ -6155,7 +6450,7 @@ function crl7122()
   gg.getResults(100)
   gg.editAll("13", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl7123()
@@ -6174,7 +6469,7 @@ function cr25()
     "❏ ᴄᴏʟᴏʀ 835 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 835 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP8351 == nil then
   else
     if CLRSNAP8351[1] == true then
@@ -6201,7 +6496,7 @@ function crl8351()
   gg.getResults(999)
   gg.editAll("8199", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl8352()
@@ -6212,7 +6507,7 @@ function crl8352()
   gg.getResults(20)
   gg.editAll("8199", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 ??🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 ??🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl8353()
@@ -6223,7 +6518,7 @@ function crl8353()
   gg.getResults(20)
   gg.editAll("8198", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr26()
@@ -6233,7 +6528,7 @@ function cr26()
     "❏ ᴄᴏʟᴏʀ 845 ʀᴇᴅ ʜᴅʀ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 845 ʏᴇʟʟᴏᴡ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP8451 == nil then
   else
     if CLRSNAP8451[1] == true then
@@ -6262,7 +6557,7 @@ function crl8451()
   gg.getResults(15)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl8452()
@@ -6272,7 +6567,7 @@ function crl8452()
   gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl8453()
@@ -6284,7 +6579,7 @@ function crl8453()
   gg.editAll("7", gg.TYPE_DWORD)
   gg.editAll("3", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl8454()
@@ -6294,7 +6589,7 @@ function crl8454()
   gg.getResults(20)
   gg.editAll("6", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr27()
@@ -6304,7 +6599,7 @@ function cr27()
     "❏ ᴄᴏʟᴏʀ 855 ɢʀᴇᴇɴ 👉 ɢʀᴀᴘʜɪᴄ ʜᴅ",
     "❏ ᴄᴏʟᴏʀ 855 ᴡʜɪᴛᴇ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
     "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+ }, nil, "🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - SNM  sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻TELEGRAM - @DoctorMaster199  " .. Time)
   if CLRSNAP8551 == nil then
   else
     if CLRSNAP8551[1] == true then
@@ -6334,7 +6629,7 @@ function crl8551()
   gg.getResults(10)
   gg.editAll("7", 4)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function crl8552()
@@ -6350,7 +6645,7 @@ function crl8552()
   gg.getResults(1000)
   gg.editAll("8199", 4)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl8553()
@@ -6360,7 +6655,7 @@ function crl8553()
   gg.getResults(15)
   gg.editAll("7", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
 function crl8554()
@@ -6372,510 +6667,72 @@ function crl8554()
   gg.editAll("7", gg.TYPE_DWORD)
   gg.editAll("3", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
-end
-
-function skin()
-  MG = gg.multiChoice({
-    "👑  PHORHAA X SKIN 👑",
-    "😍 SKIN  ᴍ416 ʟɪᴢᴀʀᴅ ⚡ ",
-    "😍 SKIN  ᴍ416 ᴛʜᴇ ғᴏʟʟ 🎗️",
-    "🍋️SKIN  ALL GUN OP V1 👑",
-    "😍 SKIN  ᴍ416 ɢʟᴀᴄɪᴇʀ 👑",
-    "😈 ALL GUN SKIN OP V2 👑️ ",
-"⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-
-  if MG == nil then
-  else
-    if MG[1] == true then
-      MG5()
-    end
-    if MG[2] == true then
-      MG6()
-    end
-    if MG[3] == true then
-      MG7()
-    end
-    if MG[4] == true then
-      MG8()
-    end
-    if MG[5] == true then
-      MG9()
-    end
-    if MG[6] == true then
-      MG10()
-    end
-    if MG[7] == true then
-      HOME()
-    end
-  end
-  PUBGMH = -1
+  gg.toast("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 
-function MG5()
-  gg.alert("✨make sure porhaa level skin Download in work shop and try not download game carsh✨")
-  function split(A0_201, A1_202)
-    local L2_203, L3_204, L4_205
-    L2_203 = 1
-    L3_204 = 1
-    L4_205 = {}
-    while true do
-      if not string.find(A0_201, A1_202, L2_203) then
-        L4_205[L3_204] = string.sub(A0_201, L2_203, string.len(A0_201))
-        break
-      end
-      L4_205[L3_204] = string.sub(A0_201, L2_203, string.find(A0_201, A1_202, L2_203) - 1)
-      L2_203 = string.find(A0_201, A1_202, L2_203) + string.len(A1_202)
-      L3_204 = L3_204 + 1
-    end
-    return L4_205
-  end
-  
-  function xgxc(A0_206, A1_207)
-    local L2_208, L3_209, L4_210, L5_211
-    L2_208 = 1
-    L3_209 = #A1_207
-    for i = 1, #A1_207 do
-      xgpy = A0_206 + A1_207[i].offset
-      xglx = A1_207[i].type
-      xgsz = A1_207[i].value
-      gg.setValues({
-        [1] = {
-          address = xgpy,
-          flags = xglx,
-          value = xgsz
-        }
-      })
-      xgsl = xgsl + 1
-    end
-  end
-  
-  function MoShinp(A0_212)
+
+function MICR()
+MN1 = gg.choice({
+"🏃MICRO SPEED ON🏃\n",
+"🏃MICRO SPEED OFF🏃\n",
+"🔙 BACK\n",
+}, nil, "")
+if MN1 == nil then
+else
+if MN1 == 1 then
+MION()
+end-- Ghost
+if MN1 == 2 then
+MIOFF()
+end-- Ghost
+if MN1 == 3 then
+HOME()
+end-- Ghost
+end-- Ghost
+PUBGMH = -1
+end----------------------------------------------------------------------------------------------------------------------------------- 
+ 
+function MION()
     gg.clearResults()
-    gg.setRanges(A0_212[1].memory)
-    gg.searchNumber(A0_212[3].value, A0_212[3].type)
-    if gg.getResultCount() == 0 then
-      gg.toast(A0_212[2].name .. "")
-    else
-      gg.refineNumber(A0_212[3].value, A0_212[3].type)
-      gg.refineNumber(A0_212[3].value, A0_212[3].type)
-      gg.refineNumber(A0_212[3].value, A0_212[3].type)
-      if gg.getResultCount() == 0 then
-        gg.toast(A0_212[2].name .. "")
-      else
-        sl = gg.getResults(999999)
-        sz = gg.getResultCount()
-        xgsl = 0
-        if 999999 < sz then
-          sz = 999999
-        end
-        for i = 1, sz do
-          pdsz = true
-          for i = 4, #A0_212 do
-            if pdsz == true then
-              pysz = {}
-              pysz[1] = {}
-              pysz[1].address = sl[i].address + A0_212[i].offset
-              pysz[1].flags = A0_212[i].type
-              szpy = gg.getValues(pysz)
-              pdpd = A0_212[i].lv .. ";" .. szpy[1].value
-              szpd = split(pdpd, ";")
-              tzszpd = szpd[1]
-              pyszpd = szpd[2]
-              if tzszpd == pyszpd then
-                pdjg = true
-                pdsz = true
-              else
-                pdjg = false
-                pdsz = false
-              end
-            end
-          end
-          if pdjg == true then
-            szpy = sl[i].address
-            xgxc(szpy, MS)
-            xgjg = true
-          end
-        end
-        if xgjg == true then
-          gg.toast(A0_212[2].name .. "" .. xgsl .. "")
-        else
-          gg.toast(A0_212[2].name .. "")
-        end
-      end
-    end
-  end
-  
-  function SearchWrite(A0_213, A1_214, A2_215)
-    local L3_216, L4_217, L5_218, L6_219, L7_220, L8_221, L9_222, L10_223, L11_224, L12_225, L13_226, L14_227, L15_228, L16_229, L17_230, L18_231, L19_232, L20_233, L21_234
-  end
-  
-  function Assert(A0_235)
-    local L1_236
-    if A0_235 == nil or A0_235 == "" or A0_235 == "nil" then
-      L1_236 = false
-      do return L1_236 end
-      A0_235 = A0_235
-    end
-    L1_236 = true
-    return L1_236
-  end
-  
-  function mearrass(A0_237, A1_238)
-    if Assert(A0_237) and Assert(A1_238) then
-      do return true end
-      A0_237 = A0_237
-    end
-    return false
-  end
-  
-  function typetab(A0_239, A1_240)
-    local L2_241, L3_242, L4_243, L5_244, L6_245
-    L2_241 = {}
-    L3_242 = 1
-    L4_243 = #A0_239
-    for i = 1, #A0_239 do
-      if Assert(A0_239[i].type) then
-        table.insert(L2_241, i, A0_239[i].type)
-      elseif Assert(A1_240) then
-        table.insert(L2_241, i, A1_240)
-      else
-        return false
-      end
-    end
-    L3_242 = true
-    L4_243 = L2_241
-    return L3_242, L4_243
-  end
-  
-  function edit(A0_246, A1_247)
-    _om = A0_246[1].memory or A0_246[1][1]
-    _ov = A0_246[3].value or A0_246[3][1]
-    _on = A0_246[2].name or A0_246[2][1]
+    gg.setRanges(8)
+    gg.searchNumber('-1,296,744,149,883,614,555', 32, false, 536870912, 0, -1)
+    gg.getResults(99)
+    gg.editAll(' -1,296,744,153,870,237,696', 32)
     gg.clearResults()
-    gg.setRanges(_om)
-    gg.searchNumber(_ov, A0_246[3].type or A0_246[3][2])
-    sz = gg.getResultCount()
-    if 1 > sz then
-      gg.toast(_on .. "开启失败")
-    else
-      sl = gg.getResults(720)
-      for i = 1, sz do
-        ist = true
-        for i = 4, #A0_246 do
-          if ist == true and sl[i].value == _ov then
-            cd = {
-              {}
-            }
-            cd[1].address = sl[i].address + (A0_246[i].offset or A0_246[i][2])
-            cd[1].flags = A0_246[i].type or A0_246[i][3]
-            szpy = gg.getValues(cd)
-            cdlv = A0_246[i].lv or A0_246[i][1]
-            cdv = szpy[1].value
-            if cdlv == cdv then
-              pdjg = true
-              ist = true
-            else
-              pdjg = false
-              ist = false
-            end
-          end
-        end
-        if pdjg == true then
-          szpy = sl[i].address
-          for i = 1, #A1_247 do
-            xgpy = szpy + (A1_247[i].offset or A1_247[i][2])
-            xglx = A1_247[i].type or A1_247[i][3]
-            xgsz = A1_247[i].value or A1_247[i][1]
-            xgdj = A1_247[i].freeze or A1_247[i][4]
-            xgsj = {
-              {
-                address = xgpy,
-                flags = xglx,
-                value = xgsz
-              }
-            }
-            if xgdj == true then
-              xgsj[1].freeze = xgdj
-              gg.addListItems(xgsj)
-            else
-              gg.setValues(xgsj)
-            end
-          end
-          xgjg = true
-        end
-      end
-      if xgjg == true then
-        gg.toast(_on .. "Open successfully")
-      else
-        gg.toast(_on .. "Open failed")
-      end
-    end
-  end
-  
-  function SearchWrite(A0_248, A1_249, A2_250)
-    local L3_251, L4_252, L5_253, L6_254, L7_255, L8_256, L9_257, L10_258, L11_259, L12_260, L13_261, L14_262, L15_263, L16_264, L17_265, L18_266, L19_267, L20_268, L21_269
-  end
-  
-  function split(A0_270, A1_271)
-    local L2_272, L3_273, L4_274
-    L2_272 = 1
-    L3_273 = 1
-    L4_274 = {}
-    while true do
-      if not string.find(A0_270, A1_271, L2_272) then
-        L4_274[L3_273] = string.sub(A0_270, L2_272, string.len(A0_270))
-        break
-      end
-      L4_274[L3_273] = string.sub(A0_270, L2_272, string.find(A0_270, A1_271, L2_272) - 1)
-      L2_272 = string.find(A0_270, A1_271, L2_272) + string.len(A1_271)
-      L3_273 = L3_273 + 1
-    end
-    return L4_274
-  end
-  
-  function xgxc(A0_275, A1_276)
-    local L2_277, L3_278, L4_279, L5_280
-    L2_277 = 1
-    L3_278 = #A1_276
-    for i = 1, #A1_276 do
-      xgpy = A0_275 + A1_276[i].offset
-      xglx = A1_276[i].type
-      xgsz = A1_276[i].value
-      xgdj = A1_276[i].freeze
-      if xgdj == nil or xgdj == "" then
-        gg.setValues({
-          [1] = {
-            address = xgpy,
-            flags = xglx,
-            value = xgsz
-          }
-        })
-      else
-        gg.addListItems({
-          [1] = {
-            address = xgpy,
-            flags = xglx,
-            freeze = xgdj,
-            value = xgsz
-          }
-        })
-      end
-      xgsl = xgsl + 1
-      xgjg = true
-    end
-  end
-  
-  function xqmnb(A0_281)
+    gg.setRanges(8)
+    gg.searchNumber('-1,904,987,454,010,553,855', 32, false, 536870912, 0, -1)
+    gg.getResults(99)
+    gg.editAll('-1,904,987,454,002,165,247', 32)
     gg.clearResults()
-    gg.setRanges(A0_281[1].memory)
-    gg.searchNumber(A0_281[3].value, A0_281[3].type)
-    if gg.getResultCount() == 0 then
-      gg.toast(A0_281[2].name .. "Open failed")
-    else
-      gg.refineNumber(A0_281[3].value, A0_281[3].type)
-      gg.refineNumber(A0_281[3].value, A0_281[3].type)
-      gg.refineNumber(A0_281[3].value, A0_281[3].type)
-      if gg.getResultCount() == 0 then
-        gg.toast(A0_281[2].name .. "Open failed")
-      else
-        sl = gg.getResults(999999)
-        sz = gg.getResultCount()
-        xgsl = 0
-        if 999999 < sz then
-          sz = 999999
-        end
-        for i = 1, sz do
-          pdsz = true
-          for i = 4, #A0_281 do
-            if pdsz == true then
-              pysz = {}
-              pysz[1] = {}
-              pysz[1].address = sl[i].address + A0_281[i].offset
-              pysz[1].flags = A0_281[i].type
-              szpy = gg.getValues(pysz)
-              pdpd = A0_281[i].lv .. ";" .. szpy[1].value
-              szpd = split(pdpd, ";")
-              tzszpd = szpd[1]
-              pyszpd = szpd[2]
-              if tzszpd == pyszpd then
-                pdjg = true
-                pdsz = true
-              else
-                pdjg = false
-                pdsz = false
-              end
-            end
-          end
-          if pdjg == true then
-            szpy = sl[i].address
-            xgxc(szpy, qmxg)
-          end
-        end
-        if xgjg == true then
-          gg.toast(A0_281[2].name .. "Opensuccess,Totalmodify" .. xgsl .. "Article data")
-        else
-          gg.toast(A0_281[2].name .. "Open failed")
-        end
-      end
-    end
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('1;1;1;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(300)
+    gg.editAll('1.07', gg.TYPE_FLOAT)
+    gg.toast(' MICRO ON ')
+    gg.clearResults()
   end
-  
-  function Fxs(A0_282, A1_283, A2_284, A3_285, A4_286)
-    local L5_287, L6_288, L7_289, L8_290, L9_291, L10_292, L11_293, L12_294, L13_295, L14_296, L15_297, L16_298, L17_299, L18_300, L19_301, L20_302, L21_303, L22_304, L23_305
+ 
+  function MIOFF()
+    gg.clearResults()
+    gg.setRanges(8)
+    gg.searchNumber('-1,296,744,153,870,237,696', 32, false, 536870912, 0, -1)
+    gg.getResults(99)
+    gg.editAll(' -1,296,744,149,883,614,555', 32)
+    gg.clearResults()
+    gg.setRanges(8)
+    gg.searchNumber('-1,904,987,454,002,165,247', 32, false, 536870912, 0, -1)
+    gg.getResults(99)
+    gg.editAll('-1,904,987,454,010,553,855', 32)
+    gg.toast(' MICRO OFF ')
+    gg.clearResults()
   end
-  
-  qmnb = {
-    {memory = 32},
-    {
-      name = "@🅉🄰🄼🄰🅂🅄 🄶🄰🄼🄸🄽🄶"
-    },
-    {value = 1400129, type = 4},
-    {
-      lv = 519,
-      offset = 4,
-      type = 4
-    }
-  }
-  qmxg = {
-    {
-      value = 1405628,
-      offset = 0,
-      type = 4
-    }
-  }
-  xqmnb(qmnb)
-  gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1103003022", gg.TYPE_DWORD)
-  gg.alert("😍️PHORHA X SKIN ")
-end
-
-function MG6()
-  gg.alert("😍 make sure DOWNLOAD  SKIN IN GUN SHOP make sure download first and try 👑")
-  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101004086", gg.TYPE_DWORD)
-  gg.alert("♀️️ᴀᴄᴛɪᴠᴀᴛᴇᴅ 👻 ᴍ416 ʟɪᴢᴀʀᴅ")
-end
-
-function MG7()
-  gg.alert("😍 make sure DOWNLOAD SKIN IN GUN SHOP make sure download first and try 👑")
-  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101004062", gg.TYPE_DWORD)
-  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍ416 ᴛʜᴇ ғᴏʟʟ♂️ ")
-end
-
-function MG8()
-  gg.alert("😍 make sure DOWNLOAD ALL SKIN IN GUN SHOP make sure download first and try 👑")
-  gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101002056", gg.TYPE_DWORD)
-  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍ416 ᴀᴜʀᴏʀᴀ♀️")
-  gg.clearResults()
-  gg.searchNumber("10100200", 4, false, 536870912, 0, -1)
-  gg.searchNumber("10100200", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101002056", 4)
-  gg.toast("ACTIVITIED")
-  gg.clearResults()
-  gg.clearResults()
-  gg.searchNumber("10100300", 4, false, 536870912, 0, -1)
-  gg.searchNumber("10100300", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101003057", 4)
-  gg.toast("ACTIVITIED")
-  gg.clearResults()
-  gg.clearResults()
-  gg.searchNumber("10200100", 4, false, 536870912, 0, -1)
-  gg.searchNumber("10200100", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1102001004", 4)
-  gg.toast("ACTIVITIED")
-  gg.clearResults()
-  gg.searchNumber("10100500", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1101005014", 4)
-  gg.clearResults()
-  gg.toast("ɢʀᴏᴢᴀ")
-  gg.searchNumber("10100600", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1101006020", 4)
-  gg.clearResults()
-  gg.toast("ᴀᴜɢ")
-  gg.searchNumber("10100700", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1101007003", 4)
-  gg.clearResults()
-  gg.toast("ϙʙᴢ")
-  gg.searchNumber("10100800", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1101008029", 4)
-  gg.clearResults()
-  gg.toast("ᴍ762")
-  gg.searchNumber("10300300", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1103001035", 4)
-  gg.clearResults()
-  gg.toast("ᴋᴀʀ98ᴋ")
-  gg.searchNumber("10300300", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1103003032", 4)
-  gg.clearResults()
-  gg.toast("ᴀᴡᴍ")
-  gg.toast("ACTIVITIED")
-end
-
-function MG9()
-  gg.alert("😍 make sure DOWNLOAD SKIN IN GUN SHOP make sure download first and try 👑")
-  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101004046", gg.TYPE_DWORD)
-  gg.alert("❄️️ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍ416 ɢʟᴀᴄɪᴇʀ😍️")
-end
-
-function MG10()
-  gg.alert("😍 make sure DOWNLOAD ALL SKIN IN GUN SHOP make sure download first and try 👑")
-  gg.searchNumber("10800400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10800400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll(" 1108004027 ", gg.TYPE_DWORD)
-  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴘᴀɴ skin ɢʟᴀᴄɪᴇʀ♂️ ")
-  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101001089", gg.TYPE_DWORD)
-  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ.  ᴀᴋᴍ ɪᴄᴇ ❄️ ")
-  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1101003057", gg.TYPE_DWORD)
-  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ  sᴄᴀʀ ʟ skin go tuch and change anything not see in game 100% see the skin♂️")
-  gg.searchNumber(" 10300100 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber(" 10300100 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll(" 1103001060 ", gg.TYPE_DWORD)
-  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ  ᴋᴀʀ ᴛᴇʀᴏʀ ғᴀɴɢ♀️")
-  gg.searchNumber("10200100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("10200100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1102001004", gg.TYPE_DWORD)
-  gg.alert("♀️ᴀᴄᴛɪᴠᴀᴛᴇᴅ  uzi skin ")
-end
-
-
+ 
 
 
 function CLOSE()
-gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n  ", "🔚 🅴🆇🅸🆃")
+gg.alert("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - SNM \n sᴄʀɪᴘᴛ : 🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻TELEGRAM - @DoctorMaster199 \n  ", "🔚 🅴🆇🅸🆃")
   gg.skipRestoreState()
   os.exit()
   gg.setVisible(true)
@@ -6897,20 +6754,3 @@ while true do
     HOME()
   end
 end
-
- cs = "Snipy"
-while true do
-  if gg.isVisible(true) then
-    SNIPY = 1
-    gg.setVisible(false)
-  end
-  gg.clearResults()
-  if SNIPY == 1 then
-    main()
-  end
-end
-else
-gg.alert("❌Password မှာ​းနေပါသည် ❕")
-return
-end
-
