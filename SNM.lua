@@ -1,3 +1,22 @@
+gg.alert("Wait For  Seconds")
+gg.sleep("10000")
+gg.setVisible(false)
+gg.toast("🆆🅴🅻🅲🅾🅼🅴 🆃🅾 🅼🅼🅺 🅶🅰🅼🅸🅽🅶")
+gg.sleep(2000)
+gg.alert("Password Is SNM")
+local Password = "SNM","YTT"
+local AskPassword = gg.prompt({ 
+ "🔒 Password ရိုက်ထည့်ပါ "
+},{""},{"text"})
+if not AskPassword then
+os.exit() 
+end 
+if AskPassword[1] == "" then
+gg.alert("ᴘᴀssᴡᴏʀᴅ ᴄᴀɴ ɴᴏᴛ ʙᴇ ᴇᴍᴘᴛʏ  ❕") -- Once Password is empty or "" .
+return
+end
+if AskPassword[1] == Password then -- Check If Password is same as wanted .
+gg.toast("✅ Password မှန်ကန်ပါသည်❕")
 gg.setVisible(false)
 gg.toast("🆆🅴🅻🅲🅾🅼🅴 🆃🅾 🆂🅽🅼 🅶🅰🅼🅸🅽🅶")
 
@@ -6753,4 +6772,19 @@ while true do
   if PUBGSM == 1 then
     HOME()
   end
+end
+cs = "Snipy"
+while true do
+  if gg.isVisible(true) then
+    SNIPY = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if SNIPY == 1 then
+    main()
+  end
+end
+else
+gg.alert("❌Password မှာ​းနေပါသည် ❕")
+return
 end
